@@ -15,7 +15,7 @@ O(n)
 
 ## Code
 
-GitHub: <https://github.com/Verisimilitude11/LeetCode-Problem-Solutions/blob/main/Palindrome%20Number.java>
+GitHub: <https://github.com/Verisimilitude11/LeetCode-Problems/tree/main/9.%20Palindrome%20Number>
 
 ```java
 class Solution {

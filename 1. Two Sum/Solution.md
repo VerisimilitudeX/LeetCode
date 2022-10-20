@@ -15,7 +15,7 @@ O(n^2)
 
 ## Code
 
-GitHub: <https://github.com/Verisimilitude11/LeetCode-Problem-Solutions/blob/main/Two%20Sum.java>
+GitHub: <https://github.com/Verisimilitude11/LeetCode-Problems/tree/main/1.%20Two%20Sum>
 
 ```java
 class Solution {
