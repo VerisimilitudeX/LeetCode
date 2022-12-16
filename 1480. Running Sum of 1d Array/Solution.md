@@ -15,7 +15,6 @@ To implement this approach, I will use a for loop to iterate through the array. 
 
 - Space complexity: O(1)
   - The space complexity of this solution is O(1), as we are not using any additional data structures or variables to store the running sum.
-  -
 
 ## Code
 
