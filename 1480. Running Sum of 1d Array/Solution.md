@@ -32,4 +32,4 @@ class Solution {
 }
 ```
 
-For more details: <https://leetcode.com/problems/running-sum-of-1d-array/solutions/2916215/highly-efficient-solution-beats-100-in-runtime-and-94-in-memory-usage/>
+For more details: <https://leetcode.com/problems/running-sum-of-1d-array/solutions/2916215/highly-efficient-java-solution-beats-100-in-runtime-and-94-in-memory-usage/>
