@@ -1,4 +1,4 @@
-# Highly Efficient Solution (Beats 100% In Runtime And 94% in Memory Usage)
+# Highly Efficient Java Solution (Beats 100% In Runtime And 94% in Memory Usage)
 
 ## Intuition
 
