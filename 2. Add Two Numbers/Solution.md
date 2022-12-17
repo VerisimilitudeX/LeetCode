@@ -34,7 +34,7 @@ Create a new linked list from the sum.
 Return the new linked list as the result.
 Let's now implement this approach in code.
 
-# Code
+## Code
 
 ```java
 /**
