@@ -1,11 +1,11 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution1 {
@@ -39,7 +39,7 @@ class Solution1 {
         int thirdDigit = sum % 10;
         int secondDigit = (sum / 10) % 10;
         int firstDigit = (sum / 100) % 10;
-        
+
         ListNode first = new ListNode(firstDigit);
         ListNode second = new ListNode(secondDigit, first);
         ListNode third = new ListNode(thirdDigit, second);
@@ -66,7 +66,7 @@ class Solution2 {
         }
         String stringNum1 = "";
         for (int i = 0; i < num1Array.size(); i++) {
-                stringNum1 += num1Array.get(i);
+            stringNum1 += num1Array.get(i);
         }
         StringBuilder sb = new StringBuilder(stringNum1).reverse();
         BigInteger num1 = new BigInteger(sb.toString());
@@ -84,14 +84,14 @@ class Solution2 {
         }
         String stringNum2 = "";
         for (int i = 0; i < num2Array.size(); i++) {
-                stringNum2 += num2Array.get(i);
+            stringNum2 += num2Array.get(i);
         }
         sb = new StringBuilder(stringNum2).reverse();
         BigInteger num2 = new BigInteger(sb.toString());
 
         BigInteger intSum = num1.add(num2);
         String stringSum = String.valueOf(intSum);
-        
+
         ArrayList<ListNode> listNodes = new ArrayList<>();
 
         ListNode current;
@@ -99,7 +99,7 @@ class Solution2 {
         for (int i = 0; i < stringSum.length(); i++) {
             if (i == 0) {
                 previous = new ListNode(Integer.parseInt(stringSum.charAt(0) + ""));
-                listNodes.add(previous);  
+                listNodes.add(previous);
             } else {
                 current = new ListNode(Integer.parseInt(stringSum.charAt(i) + ""), previous);
                 listNodes.add(current);
