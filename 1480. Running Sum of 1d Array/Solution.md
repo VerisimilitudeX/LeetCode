@@ -1,12 +1,21 @@
-# Highly Efficient Java Solution (Beats 100% In Runtime And 94% in Memory Usage)
-
 ## Intuition
 
 My first thought on how to solve this problem is to iterate through the array and add the current element to the previous element. This will give us a running sum of the elements in the array.
 
 ## Approach
 
-To implement this approach, I will use a for loop to iterate through the array. I will check if the current index is not equal to 0, as we do not want to add the element at index 0 to itself. If the current index is not 0, I will update the value at the current index to be the sum of the current element and the previous element.
+The function first declares a loop that will iterate over the elements of the array starting from the second element (index 1). For each iteration, the value of the current element is updated to be the sum of the previous element and itself.
+
+After the loop finishes, the modified array is returned.
+
+Here's an example of how the function would work:
+
+```txt
+Input: [1, 2, 3, 4]
+Output: [1, 3, 6, 10]
+```
+
+The first element of the output array is the same as the first element of the input array, since it is the sum of the elements up to itself (in this case, just itself). The second element of the output array is the sum of the first and second elements of the input array, and so on.
 
 ## Complexity
 
@@ -21,10 +30,8 @@ To implement this approach, I will use a for loop to iterate through the array. 
 ```java
 class Solution {
     public int[] runningSum(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            if (!(i == 0)) {
-                nums[i] = nums[i - 1] + nums[i];
-            }
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] = nums[i - 1] + nums[i];
         }
         return nums;
     }
