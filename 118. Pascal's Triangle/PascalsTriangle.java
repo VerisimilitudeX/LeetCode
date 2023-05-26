@@ -16,6 +16,6 @@ public class PascalsTriangle {
     }
 
     public static void main(String[] args) {
-        System.out.println(PascalsTriangle.generate(5));
+        System.out.println(PascalsTriangle.generate(6));
     }
 }
