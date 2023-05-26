@@ -6,7 +6,7 @@ public class PascalsTriangle {
         List<List<Integer>> allRows = new ArrayList<>(numRows);
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<>(i);
-            String num = String.valueOf(Math.pow(11, i));
+            String num = String.valueOf((int) Math.pow(11, i));
             for (char c : num.toCharArray()) {
                 row.add(Integer.parseInt(String.valueOf(c)));
             }
