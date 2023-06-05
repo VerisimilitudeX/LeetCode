@@ -1,3 +1,5 @@
+>This repository won't be maintained anymore. However, I will be regularly updating my competitive programming repository, which also contain my LeetCode problems _and_ solutions: https://github.dev/VerisimilitudeX/Competitive-Programming.
+
 # LeetCode
 
 This repository contains solutions for various problems on LeetCode. Each solution is written in Java/C++/Python and has been tested to ensure it passes all test cases on LeetCode. The repository also contains solutions to the sql problems on LeetCode.
